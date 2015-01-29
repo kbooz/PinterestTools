@@ -31,7 +31,8 @@ function showurls(a) {
 	console.clear();
 	retorno = "";
 	for (var i = urls.length - 1; i >= 0; i--) {
-		retorno+=urls[i]+"\n";
+		if(urls[i]!=undefined)
+			retorno+=urls[i]+"\n";
 	}
 	if(typeof(a)==='undefined')
 		console.log(retorno);
