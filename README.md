@@ -21,5 +21,5 @@ It'll catch every pin url from a "in.txt" file, and it'll download the pin image
 ___It's veeeery slow___
 
 ##Requirements
-Ruby >= 1.9.1
-Updated RubyGems
+*Ruby >= 1.9.1
+*Updated RubyGems
